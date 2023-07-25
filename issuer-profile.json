@@ -1,0 +1,10 @@
+{
+  "@context": [
+    "https://www.blockcerts.org/schema/3.0/context.json"
+  ],
+  "publicKey": [
+    {
+      "id": "0x029feac97de87af37479fdd076a544174342e960f612a20e658a8709a32a8bc35c"
+    }
+  ]
+}
