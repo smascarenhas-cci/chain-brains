@@ -1,0 +1,7 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "https://w3id.org/blockcerts/samples/2.0/revocation-list-testnet.json",
+  "type": "RevocationList",
+  "issuer": "https://raw.githubusercontent.com/smascarenhas-cci/chain-brains/main/issuer-profile.json",
+  "revokedAssertions": []
+}
