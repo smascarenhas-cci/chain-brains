@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.1.json",
+    "https://www.blockcerts.org/schema/3.0/context.json"
+  ],
+  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "issuer": "https://raw.githubusercontent.com/smascarenhas-cci/chain-brains/main/issuer-profile.json",
+  "issuanceDate": "2023-07-29T08:07:31.329Z",
+  "name": "Code Ninja",
+  "credentialSubject": {
+    "id": "44da11ff-6637-4a49-9575-b5659a806f5d",
+    "type": ["AchievementSubject", "Profile"],
+    "achievement": {
+      "id": "8d353eaf-6ece-4911-a655-f37390005f16",
+      "type": ["Achievement"],
+      "criteria": {
+        "narrative": "Team members are nominated for this badge by their peers and recognized upon review by Example Corp management."
+      },
+      "description": "This badge recognizes the development of the capacity to collaborate within a group environment.",
+      "name": "Code Ninja"
+    },
+    "givenName": "Scanny Mascarenhas"
+  },
+  "proof": {
+    "type": "MerkleProof2019",
+    "created": "2023-07-29T08:10:13.472Z",
+    "proofValue": "z2XjHnoSLxTBHK8YqYVEnWthwD3irtreCRmyiFMqDbjcaYSVX15enWJAtMdqT7an9W6cYhE9JEsUm3p4h2MrvA5Su2qNaFkYgYhCTpmbYdkGRZkejN16NJa4Vb8z9Gb1L2jTMw9mR8uRC761HcGqG9dCYYV8yDMCambpGgCsk9g49JizFojQs1"
+  }
+}
