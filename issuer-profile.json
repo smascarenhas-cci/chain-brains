@@ -1,29 +1,13 @@
 {
-  "@context": [
-    "https://w3id.org/openbadges/v2",
-    "https://w3id.org/blockcerts/v3"
-  ],
   "type": "Profile",
   "id": "https://raw.githubusercontent.com/smascarenhas-cci/chain-brains/main/issuer-profile.json",
   "name": "University of Learning",
   "url": "https://www.issuer.org",
-  "publicKey": [
+  "introductionURL": "https://www.issuer.org/intro/",
+  "issuerKeys": [
     {
-      "id": "0x6FE7c79ce01A15b285D1aF6bb6e414C01D6787e4",
-      "created": "2021-11-20T15:52:57.617381+00:00"
-    }
-  ],
-  "verificationMethod": [
-    {
-      "id": "#key-1",
-      "controller": "did:ion:EiDBy7BrYpgMDwisXYZIFj-tQZsMcu5cPFgh2FkjqZDGxQ",
-      "type": "EcdsaSecp256k1VerificationKey2019",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "secp256k1",
-        "x": "--dXPRkSt82VmIV2InK80cK9SQRlskgPlSwYgD4LNvo",
-        "y": "wlpqlYnELp-8ttYtURqF4FVgkZirlD5Yk8UH26tEZkQ"
-      }
+      "key": "0x6FE7c79ce01A15b285D1aF6bb6e414C01D6787e4",
+      "date": "2017-06-29T14:48:03.814936+00:00"
     }
   ],
   "revocationKeys": [],
